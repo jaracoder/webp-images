@@ -1,4 +1,4 @@
-# Formato de imágenes WebP
+# Imágenes WebP en HTML5
 [![Licencia: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 Una manera de utilizar imágenes con formato (.webp) en una página web adaptandose a diferentes tamaños de pantalla y mejorando el rendimiento de la velocidad de carga frente a recursos (.jpg, .png..). 
