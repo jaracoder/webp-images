@@ -1,62 +1,66 @@
+<!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="initial-scale=1">
-		
-		<title>Imágenes con formato (.webp)</title>
-		
-		<meta name="author" content="Juan Ant. R. Armengol" />
-		<meta name="copyright" content="©JARACODER" />
-		
-		<style>
-		body{
-			width: 700px;
-			margin: 15px auto;
-		}
-		div{
-			margin: 15px 0;
-		}
-		</style>
-	</head>
-	<body>
-		<header>
-			<h1>Imágenes con formato (.webp)</h1>
-			<hr/>
-			
-			<p>
-				Este ejemplo muestra como utilizar imágenes con formato (.webp) en una página web adaptandose a diferentes tamaños de pantalla 
-				y mejorando el rendimiento de la velocidad de carga frente a recursos (.jpg, .png..).
-			</p>
-		</header>
-	
-		<div> 
-			<p>Atributo <code>srcset</code> en <code>picture</code>: </p>
-			
-			<picture>
-				<!--[if IE 9]><video style="display: none;"><![endif]-->
-				<source type="image/webp" srcset="img/example-01.webp 1200w, img/example-01-tablet.webp 700w, img/example-01-mobile.webp 340w" 
-					sizes="(min-width: 1200px) 740px, (min-width: 768px) 700px, calc(100vw - 36px)">
-				<source type="image/jpg" srcset="img/example-01.jpg 1200w, img/example-01-tablet.jpg 700w, img/example-01-mobile.jpg 340w" 
-					sizes="(min-width: 1200px) 740px, (min-width: 768px) 700px, calc(100vw - 36px)">
-				<!--[if IE 9]></video><![endif]-->
-				<img src="img/example01.jpg" alt="Texto alternativo." title="Título de la imagen.">
-			</picture>
-		</div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="initial-scale=1" />
 
-		<div>    
-			<p>Atributo <code>src</code> en <code>picture</code>: </p>
-			
-			<picture>
-				<!--[if IE 9]><video style="display: none;"><![endif]-->
-				<source type="image/webp" src="img/example-02.webp" alt="Texto alternativo.">
-				<source type="image/jpg"  src="img/example-02.jpg" alt="Texto alternativo.">
-				<!--[if IE 9]></video><![endif]-->
-				<img src="img/example-02.jpg" alt="Texto alternativo." title="Título de la imagen.">
-			</picture>
-		</div>
-		
-		<footer>
-			<i><small>&copy; Copyright 2020 - <script>document.write(new Date().getFullYear())</script>. Escrito por <a href="https://jaracoder.com" target="_blank">JARACODER</a>.</small></i>
-		</footer>
-	</body>
+        <title>Imágenes con formato (.webp)</title>
+
+        <meta name="author" content="Juan Ant. R. Armengol" />
+        <meta name="copyright" content="©JARACODER" />
+
+        <style>
+            body {
+                width: 700px;
+                margin: 15px auto;
+            }
+            div {
+                margin: 15px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Imágenes con formato (.webp)</h1>
+            <hr />
+
+            <p>Este ejemplo muestra como utilizar imágenes con formato (.webp) en una página web adaptandose a diferentes tamaños de pantalla y mejorando el rendimiento de la velocidad de carga frente a recursos (.jpg, .png..).</p>
+        </header>
+
+        <div>
+            <p>Atributo <code>srcset</code> en <code>picture</code>:</p>
+
+            <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+                <source type="image/webp" srcset="img/example-01.webp 1200w, img/example-01-tablet.webp 700w, img/example-01-mobile.webp 340w" sizes="(min-width: 1200px) 740px, (min-width: 768px) 700px, calc(100vw - 36px)" />
+                <source type="image/jpg" srcset="img/example-01.jpg 1200w, img/example-01-tablet.jpg 700w, img/example-01-mobile.jpg 340w" sizes="(min-width: 1200px) 740px, (min-width: 768px) 700px, calc(100vw - 36px)" />
+                <!--[if IE 9]></video><![endif]-->
+                <img src="img/example01.jpg" alt="Texto alternativo." title="Título de la imagen." />
+            </picture>
+        </div>
+
+        <div>
+            <p>Atributo <code>src</code> en <code>picture</code>:</p>
+
+            <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+                <source type="image/webp" src="img/example-02.webp" alt="Texto alternativo." />
+                <source type="image/jpg" src="img/example-02.jpg" alt="Texto alternativo." />
+                <!--[if IE 9]></video><![endif]-->
+                <img src="img/example-02.jpg" alt="Texto alternativo." title="Título de la imagen." />
+            </picture>
+        </div>
+
+        <footer>
+            <i>
+                <small>
+                    &copy; Copyright 2020 -
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>
+                    . Escrito por <a href="https://jaracoder.com" target="_blank">JARACODER</a>.
+                </small>
+            </i>
+        </footer>
+    </body>
 </html>
