@@ -1,7 +1,7 @@
 # Imágenes WebP en HTML5
 [![Licencia: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-Una manera de utilizar imágenes con formato (.webp) en una página web adaptandose a diferentes tamaños de pantalla y mejorando el rendimiento de la velocidad de carga frente a recursos (.jpg, .png..). 
+Optimiza la carga de imágenes en tu página web utilizando el formato `.webp`. Aprovecha su capacidad para adaptarse a diferentes tamaños de pantalla y mejorar la velocidad de carga en comparación con otros formatos como `.jpg`, `.png`, etc.
 
 ## Ejemplo de uso
 ```XML
@@ -14,13 +14,13 @@ Una manera de utilizar imágenes con formato (.webp) en una página web adaptand
 </picture>
 ```
 
-Puede consultar el ejemplo en [jaracoder.com/examples/webp-images](https://jaracoder.com/examples/webp-images/index.html).
+Puede ver este ejemplo en [jaracoder.com/examples/webp-images](https://jaracoder.com/examples/webp-images/index.html).
 
 ## Licencia
 
-Este proyecto está bajo la licencia de [GNU General Public License v3.0](https://github.com/jaracoder/webp-images/blob/master/LICENSE.MD).
+Este proyecto se distribuye bajo la licencia de [GNU General Public License v3.0](https://github.com/jaracoder/webp-images/blob/master/LICENSE.MD).
 
 ---
 <sub>
-  &copy; Copyright 2020. Escrito con ❤️ por <a href="https://jaracoder.com">JARACODER</a>.
+  &copy; Copyright 2023. Escrito con ❤️ por <a href="https://jaracoder.com">JARACODER</a>.
 </sub>
